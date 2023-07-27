@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    grid-area: header;
+    background-color: #191919;
+    padding: 30px;
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    flex-direction: left;
+    align-items: center;
+}
+nav a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: left;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.Comienzodepag{ 
+    left: 50px;
+    position: absolute
+}
+
+
+main, section {
+display: flex;
+grid-template-columns: 100px 100px 100px;
+grid-template-rows: 100px 100px 100px;
+column-gap: 50px;
+row-gap: 15px;
+object-fit: fill;
+
+}
+.Imagen__dentro_caja{
+    height: 200px;
+    width: 200px;
+}
