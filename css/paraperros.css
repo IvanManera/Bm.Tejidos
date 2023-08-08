@@ -69,11 +69,7 @@ font-family: Nechua;
     border: 5px solid black;
     box-shadow: 0 2px 4px grey;
 }
-.Imagen__dentro_caja:hover{
-    cursor: pointer;
-    height: 300px;
-    width: 300px;
-}
+
 .textoimagen{
     position: relative;
     top: -10px;
