@@ -54,3 +54,15 @@ object-fit: fill;
     height: 200px;
     width: 200px;
 }
+
+
+
+.p {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 19px;
+    color: aliceblue;
+}
